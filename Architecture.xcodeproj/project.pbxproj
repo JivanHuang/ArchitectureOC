@@ -171,7 +171,6 @@
 		8CC9351727841DEF00701B5B = {
 			isa = PBXGroup;
 			children = (
-				8CC935BD27841E7D00701B5B /* PrefixHeader.pch */,
 				8CC9352227841DEF00701B5B /* Architecture */,
 				8CC9353E27841DF200701B5B /* ArchitectureTests */,
 				8CC9354827841DF300701B5B /* ArchitectureUITests */,
@@ -194,6 +193,7 @@
 		8CC9352227841DEF00701B5B /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				8CC935BD27841E7D00701B5B /* PrefixHeader.pch */,
 				8CC9355827841E5700701B5B /* AppDelegate.h */,
 				8CC9355927841E5700701B5B /* AppDelegate.m */,
 				8CC9359827841E5800701B5B /* Tools */,
@@ -436,7 +436,6 @@
 				0F402EB0303BA3ADD94F2DDA /* Pods-ArchitectureTests.debug.xcconfig */,
 				6852FAA67C1440452831A8BB /* Pods-ArchitectureTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -846,7 +845,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Architecture/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Architecture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -874,7 +873,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Architecture/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Architecture/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

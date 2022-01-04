@@ -6,9 +6,9 @@ target 'Architecture' do
   # use_frameworks!
 
   # Pods for Architecture
-#	pod 'YYCache'
-#	pod 'AFNetworking'
-#	pod 'MBProgressHUD'
+	pod 'YYCache'
+	pod 'AFNetworking'
+	pod 'MBProgressHUD'
 
   target 'ArchitectureTests' do
     inherit! :search_paths
